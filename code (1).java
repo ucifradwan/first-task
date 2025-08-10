@@ -3,7 +3,7 @@ import java.util.regex.*;
 import java.util.concurrent.*;
 
 public class TextProcessor {
-    private static String text = "Hi, I\u2019m A.\n\nContact me at a@short.com or support@example.org.\n\nYou can also reach us via our assistant: info@company.net.\n\nCall us at 01012121212 or 01156789012 or 01234567890 or 01512345678.\n\nMy friends: Al, Bo, Ann, Joe, Z, K, Moe.\n\nRandom words: supercalifragilisticexpialidocious, ok, i, no.";
+    private static String text = "Hi, I'm A.\n\nContact me at a@short.com or support@example.org.\n\nYou can also reach us via our assistant: info@company.net.\n\nCall us at 01012121212 or 01156789012 or 01234567890 or 01512345678.\n\nMy friends: Al, Bo, Ann, Joe, Z, K, Moe.\n\nRandom words: supercalifragilisticexpialidocious, ok, i, no.";
     private static List<String> names = new ArrayList<>();
     private static String modifiedText;
     private static List<String> phoneNumbers = new ArrayList<>();
